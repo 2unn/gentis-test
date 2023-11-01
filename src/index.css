@@ -1,0 +1,201 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --main-color-1: #1e1f4b;
+  --main-color-2: #706fe5;
+  --second-color: #2e3e5c;
+  --background-color-1: #ffff;
+  --background-color-2: rgba(112, 111, 229, 0.02);
+  --button-color-hover: #4f4de2;
+}
+
+html body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Font */
+.h1,
+.h2,
+.h3,
+.h4 {
+  color: #1e1f4b;
+}
+
+.h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+}
+
+.h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+}
+
+.h2--bold {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.text-sm,
+.text-md,
+.text-lg {
+  color: #2e3e5c;
+}
+
+.text-sm {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.text-md {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text-lg {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* Button */
+
+.button {
+  color: #ffff;
+  background-color: var(--main-color-2);
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background-color: var(--button-color-hover);
+  scale: 1.02;
+}
+
+@media screen and (max-width: 767px) {
+  .h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+  }
+
+  .h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+  }
+
+  .h2--bold {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+  .h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  .h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .text-sm,
+  .text-md,
+  .text-lg {
+    color: #2e3e5c;
+  }
+
+  .text-sm {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .text-md {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .text-lg {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .button {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.2s;
+  }
+
+  .hero__content-button-play p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
