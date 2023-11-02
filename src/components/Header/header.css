@@ -64,7 +64,7 @@
     overflow: hidden;
     background-color: #ffff;
     z-index: 99999;
-    transition: all 0.2s;
+    transition: all 0.5s;
   }
 
   .header-mobile .header__menu-item {

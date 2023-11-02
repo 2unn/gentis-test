@@ -48,7 +48,11 @@ function Header() {
             }`}
           >
             {headerLink.map((el) => (
-              <li key={el.title} className="header__menu-item text-md">
+              <li
+                key={el.title}
+                onClick={() => setIsMenuOpen(false)}
+                className="header__menu-item text-md"
+              >
                 {" "}
                 <a href={el.link}>{el.title}</a>{" "}
               </li>
